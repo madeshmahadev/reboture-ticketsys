@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    color: rgba(255,255,255,.9);
+    background: #255c99;
+
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border: none;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+    background-color: #255c99;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+}
+
+.ui.blue.header {
+    color: #255c99!important;
+}
